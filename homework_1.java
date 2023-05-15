@@ -6,9 +6,9 @@ public class homework_1 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("전호번호를 입력하세요.(서울02, 경기031, 인천032, 강원도033) ※-제외");
         String number = scanner.nextLine();
-        String nu = number.substring(1,2);
+        String nu = number.substring(★,★);
         int ber = Integer.parseInt(nu);
-        String m1 = number.substring(0,3);
+        String m1 = number.substring(★,★);
         int m2 = Integer.parseInt(m1);
 
         if (ber == 2) {
